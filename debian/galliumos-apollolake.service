@@ -1,0 +1,10 @@
+[Unit]
+Description=GalliumOS system customization for Apollo Lake models
+
+[Service]
+ExecStart=/usr/bin/init-apollolake-settings
+Type=oneshot
+RemainAfterExit=true
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,15 @@
+Source: galliumos-apollolake
+Section: admin
+Priority: required
+Maintainer: GalliumOS <galliumos@galliumos.org>
+Standards-Version: 3.9.1
+
+Package: galliumos-apollolake
+Architecture: all
+Priority: required
+Depends: galliumos-base, linux-image-galliumos-apollolake
+Provides: galliumos-device
+Conflicts: galliumos-sandyivy, galliumos-haswell, galliumos-baytrail, galliumos-broadwell, galliumos-samus, galliumos-braswell, galliumos-skylake, Xgalliumos-apollolake, galliumos-kabylake
+Replaces: pulseaudio
+Description: GalliumOS Apollo Lake customizations
+ This package contains Apollo Lake-specific files for GalliumOS
